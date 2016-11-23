@@ -1,4 +1,4 @@
-# Ansible playbooks for deploying a Mezzanine application
+# Ansible playbooks for deploying a Mezzanine application(raw, without roles)
 
 The code for this chapter shows how to use Ansible to deploy a
 [Mezzanine][1] site into a Vagrant box.
