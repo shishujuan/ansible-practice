@@ -1,0 +1,6 @@
+---
+- name: copy apt sources file
+  copy: >
+    src=sources.list dest=/etc/apt/sources.list
+    mode=0644
+  sudo: True

@@ -15,7 +15,7 @@ Don't forget to do the following:
 Then you can deploy Mezzanine by doing:
 
     vagrant up
-    ansible-playbook mezzanine.yml
+    ansible-playbook mezzanine-across-hosts.yml
 
 
 Then point your browser to: <http://192.168.56.10.xip.io> or
