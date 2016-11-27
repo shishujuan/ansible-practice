@@ -10,10 +10,10 @@
     proj_path: "{{ venv_path }}/{{ proj_dirname }}"
     reqs_path: requirements.txt
     manage: "{{ python }} {{ proj_path }}/manage.py"
-    live_hostname: 192.168.56.10.xip.io
+    live_hostname: 192.168.56.18.xip.io
     domains:
-      - 192.168.56.10.xip.io
-      - www.192.168.56.10.xip.io
+      - 192.168.56.18.xip.io
+      - www.192.168.56.18.xip.io
     #repo_url: git@github.com:lorin/mezzanine-example.git
     repo_url: https://github.com/shishujuan/mezzanine-example.git
     gunicorn_port: 8000
